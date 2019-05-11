@@ -70,7 +70,7 @@ public enum MicropolisTool
 		case NUCLEAR:
 		case AIRPORT:
 		case HALFWAY:
-			return new BuildingTool(engine, this, xpos, ypos);
+			//return new BuildingTool(engine, this, xpos, ypos);
 
 		default:
 			return new ToolStroke(engine, this, xpos, ypos);
